@@ -1,0 +1,182 @@
+{
+    "english_to_synapse": [
+        {
+            "pattern": "(\\w+) (is|has|causes|becomes) (\\w+)",
+            "replacement": "@P({1}) {2} @C({3})"
+        },
+        {
+            "pattern": "(\\w+) (performs|creates|analyzes) (\\w+)",
+            "replacement": "@P({1}) @A({2}) @C({3})"
+        },
+        {
+            "pattern": "(if|when) (.*?) then (.*)",
+            "replacement": "[{1}] {2} → {3}"
+        },
+        {
+            "pattern": "(.*) and (.*)",
+            "replacement": "{1} ∧ {2}"
+        },
+        {
+            "pattern": "(.*) or (.*)",
+            "replacement": "{1} ∨ {2}"
+        },
+        {
+            "pattern": "not (.*)",
+            "replacement": "¬({1})"
+        },
+        {
+            "pattern": "all (\\w+) (.*)",
+            "replacement": "∀{1}({2})"
+        },
+        {
+            "pattern": "there exists (\\w+) (.*)",
+            "replacement": "∃{1}({2})"
+        },
+        {
+            "pattern": "(in the past|previously) (.*)",
+            "replacement": "⟨past⟩({2})"
+        },
+        {
+            "pattern": "(in the future|will) (.*)",
+            "replacement": "⟨future⟩({2})"
+        },
+        {
+            "pattern": "artificial intelligence",
+            "replacement": "@C{AI}"
+        },
+        {
+            "pattern": "continue to advance",
+            "replacement": "(Δ@S:advance)"
+        },
+        {
+            "pattern": "long-term implications",
+            "replacement": "@C(⊗(@S:impact,@C:ethics))"
+        },
+        {
+            "pattern": "By (\\d+)",
+            "replacement": "⟨t+{1}⟩"
+        },
+        {
+            "pattern": "surpass human-level intelligence",
+            "replacement": ">@P{HUMAN}(@A:cognition)"
+        },
+        {
+            "pattern": "leading to (.*) changes in (.*)",
+            "replacement": "→Δ({2})"
+        },
+        {
+            "pattern": "ethical questions",
+            "replacement": "@C{ethics}"
+        },
+        {
+            "pattern": "AI rights",
+            "replacement": "@R:rights@P{AI}"
+        },
+        {
+            "pattern": "human-AI relationships",
+            "replacement": "@R:relation(@P{HUMAN},@P{AI})"
+        },
+        {
+            "pattern": "risks of superintelligent systems",
+            "replacement": "@C:risk(@S:superintelligence)"
+        },
+        {
+            "pattern": "multidisciplinary approach",
+            "replacement": "∃@P(@R:collaborate)"
+        },
+        {
+            "pattern": "computer scientists, ethicists, policymakers, and social scientists",
+            "replacement": "⊗(@C:CompSci,@C:Ethics,@C:Policy,@C:SocSci)"
+        },
+        {
+            "pattern": "develop (.*) frameworks",
+            "replacement": "@P(∃@R:develop)@C{governance}({1})"
+        },
+        {
+            "pattern": "ensuring that (.*) remains beneficial to (.*) while mitigating (.*)",
+            "replacement": "@P(∃@R:ensure)[{1}(@R:benefit){2}∧¬({3})]"
+        },
+        {
+            "pattern": "(\\w+) (is|has|causes|becomes) (\\w+)",
+            "replacement": "@P({1}) {2} @C({3})"
+        },
+        {
+            "pattern": "(\\w+) (performs|creates|analyzes) (\\w+)",
+            "replacement": "@P({1}) @A({2}) @C({3})"
+        },
+        {
+            "pattern": "(if|when) (.*?) then (.*)",
+            "replacement": "[{1}] {2} → {3}"
+        },
+        {
+            "pattern": "(.*) and (.*)",
+            "replacement": "{1} ∧ {2}"
+        },
+        {
+            "pattern": "(.*) or (.*)",
+            "replacement": "{1} ∨ {2}"
+        },
+        {
+            "pattern": "not (.*)",
+            "replacement": "¬({1})"
+        },
+        {
+            "pattern": "all (\\w+) (.*)",
+            "replacement": "∀{1}({2})"
+        },
+        {
+            "pattern": "there exists (\\w+) (.*)",
+            "replacement": "∃{1}({2})"
+        },
+        {
+            "pattern": "(in the past|previously) (.*)",
+            "replacement": "⟨past⟩({2})"
+        },
+        {
+            "pattern": "(in the future|will) (.*)",
+            "replacement": "⟨future⟩({2})"
+        }
+    ],
+    "synapse_to_english": [
+        {
+            "pattern": "@P\\((\\w+)\\) (=|⊗|→) @C\\((\\w+)\\)",
+            "replacement": "{1} is {3}"
+        },
+        {
+            "pattern": "@P\\((\\w+)\\) @A\\((\\w+)\\) @C\\((\\w+)\\)",
+            "replacement": "{1} {2}s {3}"
+        },
+        {
+            "pattern": "\\[(if|when)\\] (.*?) → (.*)",
+            "replacement": "{1} {2} then {3}"
+        },
+        {
+            "pattern": "(.*) ∧ (.*)",
+            "replacement": "{1} and {2}"
+        },
+        {
+            "pattern": "(.*) ∨ (.*)",
+            "replacement": "{1} or {2}"
+        },
+        {
+            "pattern": "¬\\((.*?)\\)",
+            "replacement": "not {1}"
+        },
+        {
+            "pattern": "∀(\\w+)\\((.*?)\\)",
+            "replacement": "all {1} {2}"
+        },
+        {
+            "pattern": "∃(\\w+)\\((.*?)\\)",
+            "replacement": "there exists {1} {2}"
+        },
+        {
+            "pattern": "⟨past⟩\\((.*?)\\)",
+            "replacement": "in the past {1}"
+        },
+        {
+            "pattern": "⟨future⟩\\((.*?)\\)",
+            "replacement": "in the future {1}"
+        }
+    ]
+}

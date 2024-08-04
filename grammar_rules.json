@@ -1,0 +1,23 @@
+{
+    "english": {
+        "S": ["NP VP", "S CC S"],
+        "NP": ["Det N", "Det ADJ N", "N", "PRP", "NP PP"],
+        "VP": ["V", "V NP", "V NP PP", "V S"],
+        "PP": ["P NP"],
+        "Det": ["the", "a", "an", "this", "that", "these", "those"],
+        "N": ["person", "action", "concept", "state", "entity"],
+        "V": ["performs", "creates", "analyzes", "causes", "is", "has", "becomes"],
+        "ADJ": ["big", "small", "complex", "simple"],
+        "P": ["in", "on", "at", "with", "by", "for", "to", "from"],
+        "CC": ["and", "or", "but"],
+        "PRP": ["I", "you", "he", "she", "it", "we", "they"]
+    },
+    "synapse": {
+        "S": ["@P(@A)", "@P(@R)@C", "S ⊗ S", "S ⊕ S"],
+        "P": ["person", "entity"],
+        "A": ["action"],
+        "R": ["relation"],
+        "C": ["concept"],
+        "Q": ["@P", "@A", "@R", "@C", "@S"]
+    }
+}

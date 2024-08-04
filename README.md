@@ -3,7 +3,7 @@
 
 Synapse: AI-to-AI High Efficiency Language. This is a compiler/decompiler (translation) Python program.
 
-<img src="https://github.com/alby13/synapse-language-compiler/blob/main/screenshot_program.png">
+<img src="https://github.com/alby13/synapse-language-compiler/blob/main/screenshot-of-program.png">
 
 
 Program Files:

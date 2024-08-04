@@ -46,7 +46,7 @@ Windows:
  <code>Python synapse_compiler.py</code>
 
 # License
-This program is only to be viewed and used for Educational and Research Purposes Only! This is not for Individuals to use, nor is it for Companies to use.
+This program is only to be downloaded, viewed and used for Educational and Research Purposes Only! This is not for Individuals to use, nor is it for Companies to use.
 
 <br>
 

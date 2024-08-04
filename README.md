@@ -1,5 +1,5 @@
-# Synapse AI-to-AI Language Compilter and Decompiler 
-(English > Synapse, Synapse > English)
+# Synapse AI-to-AI Language Compiler and Decompiler 
+## (English > Synapse, Synapse > English)
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/downloads/)
 
 Synapse: AI-to-AI High Efficiency Language. This is a compiler/decompiler (translation) Python program.

@@ -5,11 +5,11 @@ Synapse: AI-to-AI High Efficiency Language. This is a compiler/decompiler (trans
 
 Program Files:
 
-<code>synapse_compiler.py
-grammar_rules.json
-synapse_dictionary.json
-pattern_matching.json
-synapse_explanation.txt</code>
+<code>synapse_compiler.py 
+ grammar_rules.json 
+ synapse_dictionary.json 
+ pattern_matching.json 
+ synapse_explanation.txt</code>
 
 # License
 This program is only to be viewed and used for Educational and Research Purposes Only! This is not for Individuals to use, nor is it for Companies to use.

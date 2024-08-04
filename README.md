@@ -47,7 +47,7 @@ Windows:
 
 IF you wish to translate from English to Synapse, enter the text in the "Input" and select "English to Synpase" then press "Translate".
 
-For translating from Synapse to English, enter the text in the "Input" and select "Synpase to English" then press "Translate".
+For translating from Synapse to English, enter the synapse text in the "Input" and select "Synpase to English" then press "Translate".
 
 # License
 This program is only to be downloaded, viewed and used for Educational and Research Purposes Only! This is not for Individuals to use, nor is it for Companies to use.

@@ -15,7 +15,7 @@ Synapse is a shorthand language designed specifically for AI-to-AI communication
 2. Field contexts: Field contexts provide additional layers of meaning to Synapse expressions, enabling AI systems to convey complex ideas and relationships more effectively.
 3. Quantum operators: Synapse incorporates quantum operators to express complex relationships between concepts, such as superposition (the idea that something can be two things at once), entanglement (invokes multiple meanings(layers of meaning)), and change (delta).
 4. Logical operations and quantifiers: Synapse includes standard logical operators and quantifiers, as well as comparative operators.
-5. Efficient representation: Synapse can significantly reduce the number of words(tokens) required to express complex ideas compared to natural languages like English.
+5. Efficient representation: Synapse can significantly reduce the number of words(characters) required to express complex ideas compared to natural languages like English.
 
 Download the whitepaper: https://www.singularityon.com/docs/whitepapers/synapse-ai-to-ai-language.pdf
 
